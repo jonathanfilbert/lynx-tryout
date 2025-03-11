@@ -1,8 +1,4 @@
-import { useCallback, useEffect, useState } from '@lynx-js/react';
-
-import arrow from './assets/arrow.png';
-import lynxLogo from './assets/lynx-logo.png';
-import reactLynxLogo from './assets/react-logo.png';
+import { useState } from '@lynx-js/react';
 
 export function App() {
   const [count, setCount] = useState(0);
@@ -10,8 +6,8 @@ export function App() {
   return (
     <view className="bg-gray-dark w-full h-full">
       <text className="text-2xl text-green p-4">{count}</text>
-      <text className="p-4 text-blue">Hello World 3</text>
-      <text className="p-4 text-yellow text-2xl">Hello World</text>
+      <text className="p-4 text-purple">Hello World 3</text>
+      <text className="p-4 text-blue text-2xl">Hello World</text>
       <view
         className="bg-green p-2"
         bindtap={() => {
